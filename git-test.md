@@ -9,3 +9,6 @@ editor: undefined
 
 # GitHub integration test page
 https://github.com/phizeroth/wiki-js-phiz.git
+
+I'm editing this file locally on my machine.
+If this appears, I've pushed successfully to remote.
