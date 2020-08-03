@@ -2,7 +2,7 @@
 title: Test Page
 description: Just testing
 published: true
-date: 2020-08-03T17:20:07.702Z
+date: 2020-08-03T17:21:07.444Z
 tags: test
 editor: markdown
 ---
@@ -10,7 +10,9 @@ editor: markdown
 # Testing
 This is a test page
 
-## Image gallery test
+## Image gallery example
+
+https://albumizr.com/
 <iframe src="https://albumizr.com/a/9KpR" scrolling="no" frameborder="0" allowfullscreen width="700" height="400"></iframe>
 
 For more, see [Test Subpage](/test-page/test-subpage)
