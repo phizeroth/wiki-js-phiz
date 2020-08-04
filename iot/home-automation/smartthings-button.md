@@ -2,7 +2,7 @@
 title: SmartThings Button
 description: 
 published: true
-date: 2020-08-04T04:32:45.022Z
+date: 2020-08-04T04:35:48.971Z
 tags: iot, ha, smartthings
 editor: markdown
 ---
@@ -10,7 +10,8 @@ editor: markdown
 ![smartbutton_01_0000400.png](/smartbutton_01_0000400.png =250x){.align-abstopright}
 
 ## Details
-- Protocol: Zigbee
+- Protocol
+  - Zigbee
 - Functions
   - single press
   - double press
