@@ -1,9 +1,9 @@
 ---
-title: SmartThings Button
-description: 
+title: Samsung SmartThings Button
+description: Small, multi-function Zigbee switch
 published: true
-date: 2020-08-04T05:40:15.172Z
-tags: iot, ha, smartthings
+date: 2020-08-04T05:44:38.521Z
+tags: iot, ha, smartthings, zigbee
 editor: markdown
 ---
 
