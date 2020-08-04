@@ -2,13 +2,13 @@
 title: SmartThings Button
 description: 
 published: true
-date: 2020-08-04T04:26:11.638Z
+date: 2020-08-04T04:26:43.847Z
 tags: iot, ha, smartthings
 editor: markdown
 ---
 
 # SmartThings Button
-[![smartbutton_01_0000400.png](/smartbutton_01_0000400.png =250x){.align-right}](https://www.samsung.com/us/smart-home/smartthings/buttons/samsung-smartthings-button-gp-u999sjvleaa/)
+[![smartbutton_01_0000400.png](/smartbutton_01_0000400.png =250x){.align-abstopright}](https://www.samsung.com/us/smart-home/smartthings/buttons/samsung-smartthings-button-gp-u999sjvleaa/)
 
 - Protocol: Zigbee
 - Functions
