@@ -2,14 +2,14 @@
 title: SmartThings Button
 description: 
 published: true
-date: 2020-08-04T05:01:01.029Z
+date: 2020-08-04T05:40:15.172Z
 tags: iot, ha, smartthings
 editor: markdown
 ---
 
 ![smartbutton_01_0000400.png](/smartbutton_01_0000400.png =250x){.align-abstopright}
 
-# Details
+# Overview
 **Protocol**:
 - Zigbee
 
@@ -19,17 +19,10 @@ editor: markdown
 	- battery level
 	- temperature
 
-# Functions
-Button only shows up as a battery level and temperature sensor in HASS devices. 
+# Setup
 
-| event | function
-| ----  | -----------
-| 1001  | long press
-| 1002  | single press
-| 1004  | double press
+After pairing with deCONZ, the button does *not* show up in HassOS as a device or entity. Go to Developer Tools > Events, subscribe and listen to `deconz_event` and press the button to get the id:
 
-
-# Example event
 ```json
 {
     "event_type": "deconz_event",
@@ -47,6 +40,27 @@ Button only shows up as a battery level and temperature sensor in HASS devices.
     }
 }
 ```
+
+Then set up an automation with an event trigger such as:
+```yaml
+platform: event
+event_type: deconz_event
+event_data:
+  event: 1002
+  id: button_2
+```
+
+The device shows up as a button by manufacturer Samjin, with two entities:
+- sensor.button_battery_level
+- sensor.temperature
+
+# Available events
+
+action | event id
+- | -
+long press   | 1001
+single press | 1002
+double press | 1004
 
 # References
 [Manual (pdf)](https://support.smartthings.com/hc/en-us/article_attachments/360002610923/IOT_US_Button_QSG.pdf)
