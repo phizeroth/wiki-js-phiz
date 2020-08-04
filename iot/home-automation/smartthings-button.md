@@ -2,7 +2,7 @@
 title: Samsung SmartThings Button
 description: Small, multi-function Zigbee switch
 published: true
-date: 2020-08-04T05:44:38.521Z
+date: 2020-08-04T15:55:34.696Z
 tags: iot, ha, smartthings, zigbee
 editor: markdown
 ---
@@ -10,6 +10,7 @@ editor: markdown
 ![smartbutton_01_0000400.png](/smartbutton_01_0000400.png =250x){.align-abstopright}
 
 # Overview
+
 **Protocol**:
 - Zigbee
 
@@ -21,7 +22,11 @@ editor: markdown
 
 # Setup
 
-After pairing with deCONZ, the button does *not* show up in HassOS as a device or entity. Go to Developer Tools > Events, subscribe and listen to `deconz_event` and press the button to get the id:
+After pairing with deCONZ, the device shows up as a button by manufacturer Samjin, with two entities:
+- sensor.button_battery_level
+- sensor.temperature
+
+The button functionality itself does *not* show up in HassOS as a device or entity. Go to Developer Tools > Events, subscribe and listen to `deconz_event` and press the button to get the id:
 
 ```json
 {
@@ -49,10 +54,6 @@ event_data:
   event: 1002
   id: button_2
 ```
-
-The device shows up as a button by manufacturer Samjin, with two entities:
-- sensor.button_battery_level
-- sensor.temperature
 
 # Available events
 
