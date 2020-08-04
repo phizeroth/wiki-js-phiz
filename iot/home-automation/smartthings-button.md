@@ -2,21 +2,26 @@
 title: SmartThings Button
 description: 
 published: true
-date: 2020-08-04T04:35:48.971Z
+date: 2020-08-04T05:01:01.029Z
 tags: iot, ha, smartthings
 editor: markdown
 ---
 
 ![smartbutton_01_0000400.png](/smartbutton_01_0000400.png =250x){.align-abstopright}
 
-## Details
-- Protocol
-  - Zigbee
-- Functions
-  - single press
-  - double press
-  - long press
-  
+# Details
+**Protocol**:
+- Zigbee
+
+**Features**
+- inputs: 3
+- sensors
+	- battery level
+	- temperature
+
+# Functions
+Button only shows up as a battery level and temperature sensor in HASS devices. 
+
 | event | function
 | ----  | -----------
 | 1001  | long press
@@ -24,8 +29,8 @@ editor: markdown
 | 1004  | double press
 
 
-## Example event
-```yaml
+# Example event
+```json
 {
     "event_type": "deconz_event",
     "data": {
@@ -42,4 +47,7 @@ editor: markdown
     }
 }
 ```
+
+# References
+[Manual (pdf)](https://support.smartthings.com/hc/en-us/article_attachments/360002610923/IOT_US_Button_QSG.pdf)
 
