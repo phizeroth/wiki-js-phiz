@@ -2,12 +2,12 @@
 title: SmartThings Button
 description: 
 published: true
-date: 2020-08-04T04:28:55.164Z
+date: 2020-08-04T04:32:45.022Z
 tags: iot, ha, smartthings
 editor: markdown
 ---
 
-[![smartbutton_01_0000400.png](/smartbutton_01_0000400.png =250x){.align-right}](https://www.samsung.com/us/smart-home/smartthings/buttons/samsung-smartthings-button-gp-u999sjvleaa/)
+![smartbutton_01_0000400.png](/smartbutton_01_0000400.png =250x){.align-abstopright}
 
 ## Details
 - Protocol: Zigbee
@@ -24,7 +24,7 @@ editor: markdown
 
 
 ## Example event
-```json
+```yaml
 {
     "event_type": "deconz_event",
     "data": {
