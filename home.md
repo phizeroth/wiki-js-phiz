@@ -2,9 +2,9 @@
 title: Wiki.js Test
 description: 
 published: true
-date: 2020-08-01T15:23:31.279Z
+date: 2020-08-04T06:31:31.169Z
 tags: 
-editor: undefined
+editor: markdown
 ---
 
 # Intro
@@ -16,10 +16,16 @@ List of things:
 - That
   - That over there
 - The other
+---
+Task List:
+- [x] Do a thing
+- [ ] Do another thing
+  - [x] Do this part of another thing
+- [ ] Do all the things
 
 # Tests
 
-Various tests of features and functionality:
+Various tests of features and functionality[^1]:
 
 ## Internal link tests
 
@@ -31,7 +37,7 @@ Testing link to [Secret Page](/secret/diary).
 
 *[abbr]: Abbreviation
 
-Testing abbr.
+Testing abbr.[^longnote]
 
 ### Code block
 ```ruby
@@ -40,3 +46,8 @@ if ruby_syntax == true
 	puts "Good."
 end
 ```
+
+[^1]: Footnote test
+[^longnote]: Abbreviations are defined like so:
+	`*[abbr]: Abbreviation`
+  
