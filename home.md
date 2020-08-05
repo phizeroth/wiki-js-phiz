@@ -2,7 +2,7 @@
 title: Wiki.js Test
 description: 
 published: true
-date: 2020-08-05T05:28:48.240Z
+date: 2020-08-05T05:32:52.598Z
 tags: 
 editor: markdown
 ---
@@ -37,12 +37,14 @@ This is a links list:
 {.links-list}
 
 ### Grid List
+
+This is called a grid list:
 - This is the first item in a grid list
-{.grid-list}
 - A grid list just looks cool I guess
 - Nice alternating shades
 - Interesting stuff
-  - I can even do indented sub-items if I'm feeling frisky
+{.grid-list}
+  - I can even do indented sub-items if I'm feeling particularly frisky
   - Like so, you see, yes indeed
 - And that just about wraps that up
 
