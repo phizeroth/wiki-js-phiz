@@ -2,7 +2,7 @@
 title: Wiki.js Test
 description: 
 published: true
-date: 2020-08-05T05:22:33.573Z
+date: 2020-08-05T05:28:48.240Z
 tags: 
 editor: markdown
 ---
@@ -38,9 +38,13 @@ This is a links list:
 
 ### Grid List
 - This is the first item in a grid list
-- A grid list just looks cool I guess
-- I can't really do a sub-item
 {.grid-list}
+- A grid list just looks cool I guess
+- Nice alternating shades
+- Interesting stuff
+  - I can even do indented sub-items if I'm feeling frisky
+  - Like so, you see, yes indeed
+- And that just about wraps that up
 
 ### Code block
 ```ruby
