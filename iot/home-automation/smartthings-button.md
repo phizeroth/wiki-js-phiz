@@ -2,7 +2,7 @@
 title: Samsung SmartThings Button
 description: Small, multi-function Zigbee switch
 published: true
-date: 2020-08-04T19:36:42.155Z
+date: 2020-08-05T05:43:28.372Z
 tags: iot, ha, smartthings, zigbee
 editor: markdown
 ---
@@ -31,6 +31,7 @@ editor: markdown
 After pairing with deCONZ, the device shows up in HassOS as a "button" by manufacturer Samjin, with two entities:
 - sensor.button_battery_level
 - sensor.temperature
+{.grid-list}
 
 > The button functionality itself does *not* show up in HassOS as a device or entity.{.is-info}
 
