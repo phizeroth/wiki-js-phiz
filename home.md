@@ -2,7 +2,7 @@
 title: Wiki.js Test
 description: 
 published: true
-date: 2020-08-05T05:10:12.372Z
+date: 2020-08-05T05:12:15.693Z
 tags: 
 editor: markdown
 ---
@@ -25,7 +25,7 @@ editor: markdown
 
 # Tests
 
-Various tests of features and functionality[^1]:
+Various tests of features and functionality:
 
 ## Tabs {.tabset}
 
@@ -61,8 +61,7 @@ Press <kbd>Alt</kbd> + <kbd>F4</kbd> for a good time.
 
 This is an abbr.
 
-# Footnotes
-[^1]: Footnote test
 [^longnote]: Abbreviations are defined like so:
 	`*[abbr]: Abbreviation`
+
   
