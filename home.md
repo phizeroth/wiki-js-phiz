@@ -2,7 +2,7 @@
 title: Wiki.js Test
 description: 
 published: true
-date: 2020-08-05T05:32:52.598Z
+date: 2020-08-05T05:34:14.469Z
 tags: 
 editor: markdown
 ---
@@ -46,6 +46,11 @@ This is called a grid list:
 {.grid-list}
   - I can even do indented sub-items if I'm feeling particularly frisky
   - Like so, you see, yes indeed
+  - |well|looky|
+    |-|-|
+    |I can|just plop|
+    |a table|in here|
+    |if i feel|like it|
 - And that just about wraps that up
 
 ### Code block
