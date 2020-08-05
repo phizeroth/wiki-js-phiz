@@ -2,7 +2,7 @@
 title: Wiki.js Test
 description: 
 published: true
-date: 2020-08-04T06:31:31.169Z
+date: 2020-08-05T04:42:20.330Z
 tags: 
 editor: markdown
 ---
@@ -23,7 +23,7 @@ Task List:
   - [x] Do this part of another thing
 - [ ] Do all the things
 
-# Tests
+# Tests {.tabset}
 
 Various tests of features and functionality[^1]:
 
