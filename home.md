@@ -2,7 +2,7 @@
 title: Wiki.js Test
 description: 
 published: true
-date: 2020-08-05T05:08:40.056Z
+date: 2020-08-05T05:10:12.372Z
 tags: 
 editor: markdown
 ---
@@ -27,21 +27,21 @@ editor: markdown
 
 Various tests of features and functionality[^1]:
 
-# Tabs {.tabset}
+## Tabs {.tabset}
 
-## Internal links list
+### Internal links list
 This is a links list:
 - [Test Page *Testing internal link to Test Page*](/test-page)
 - [Secret Page *Testing link to hidden page*](/secret/diary)
 {.links-list}
 
-## Grid List
+### Grid List
 - This is the first item in a grid list
 - A grid list just looks cool I guess
 - I can't really do a sub-item
 {.grid-list}
 
-## Code block
+### Code block
 ```ruby
 # Ruby syntax highlighting code block
 if ruby_syntax == true
@@ -49,19 +49,19 @@ if ruby_syntax == true
 end
 ```
 
-## Other tests
+### Other tests
 
-### Keyboard keys
+#### Keyboard keys
 
 Press <kbd>Alt</kbd> + <kbd>F4</kbd> for a good time.
 <br />
 
-### Abbreviations[^longnote]
+#### Abbreviations[^longnote]
 *[abbr]: Abbreviation 
 
 This is an abbr.
 
-
+# Footnotes
 [^1]: Footnote test
 [^longnote]: Abbreviations are defined like so:
 	`*[abbr]: Abbreviation`
