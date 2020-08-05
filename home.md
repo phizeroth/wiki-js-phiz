@@ -2,7 +2,7 @@
 title: Wiki.js Test
 description: 
 published: true
-date: 2020-08-05T04:42:20.330Z
+date: 2020-08-05T04:51:45.465Z
 tags: 
 editor: markdown
 ---
@@ -27,11 +27,17 @@ Task List:
 
 Various tests of features and functionality[^1]:
 
-## Internal link tests
+## Internal links list
+This is a links list:
+- [Test Page *Testing internal link to Test Page*](/test-page)
+- [Secret Page *Testing link to hidden page*](/secret/diary)
+{.links-list}
 
-Testing internal link to [Test Page](/test-page).
-
-Testing link to [Secret Page](/secret/diary).
+## Grid List
+- This is the first item in a grid list
+- A grid list just looks cool I guess
+- I can't really do a sub-item
+{.grid-list}
 
 ## Other tests
 
