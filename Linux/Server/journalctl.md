@@ -2,7 +2,7 @@
 title: journalctl
 description: journalctl may be used to query the contents of the systemd journal as written by systemd-journald.service.
 published: true
-date: 2020-08-05T03:58:12.233Z
+date: 2020-08-05T04:14:25.089Z
 tags: linux, server
 editor: markdown
 ---
@@ -34,3 +34,7 @@ To limit log files to a specific size systemd provides a vacuum feature to "suck
 		--vacuum-time=TIME    Remove journal files older than specified time
   </code></pre>
 </div>
+
+```bash {class=no-line-numbers}
+Test
+```
