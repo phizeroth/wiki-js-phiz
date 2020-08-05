@@ -2,7 +2,7 @@
 title: Wiki.js Test
 description: 
 published: true
-date: 2020-08-05T04:54:10.371Z
+date: 2020-08-05T05:08:40.056Z
 tags: 
 editor: markdown
 ---
@@ -11,13 +11,13 @@ editor: markdown
 
 <a href="/vimcheatsheet.png"><img align="right" width=300 src="/vimcheatsheet.png"/></a>
 
-List of things:
+**List of things**
 - This
 - That
-  - That over there
+	- That over there
 - The other
 ---
-Task List:
+**Task List** :sweat:
 - [x] Do a thing
 - [ ] Do another thing
   - [x] Do this part of another thing
@@ -41,19 +41,26 @@ This is a links list:
 - I can't really do a sub-item
 {.grid-list}
 
-## Other tests
-
-*[abbr]: Abbreviation
-
-Testing abbr.[^longnote]
-
-### Code block
+## Code block
 ```ruby
 # Ruby syntax highlighting code block
 if ruby_syntax == true
 	puts "Good."
 end
 ```
+
+## Other tests
+
+### Keyboard keys
+
+Press <kbd>Alt</kbd> + <kbd>F4</kbd> for a good time.
+<br />
+
+### Abbreviations[^longnote]
+*[abbr]: Abbreviation 
+
+This is an abbr.
+
 
 [^1]: Footnote test
 [^longnote]: Abbreviations are defined like so:
