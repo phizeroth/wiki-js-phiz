@@ -2,7 +2,7 @@
 title: Wiki.js Test
 description: 
 published: true
-date: 2020-08-05T05:12:15.693Z
+date: 2020-08-05T05:22:33.573Z
 tags: 
 editor: markdown
 ---
@@ -33,6 +33,7 @@ Various tests of features and functionality:
 This is a links list:
 - [Test Page *Testing internal link to Test Page*](/test-page)
 - [Secret Page *Testing link to hidden page*](/secret/diary)
+- [SmartThings Button *Page with some actual content*](/iot/home-automation/smartthings-button)
 {.links-list}
 
 ### Grid List
