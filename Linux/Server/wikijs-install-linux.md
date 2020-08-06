@@ -2,7 +2,7 @@
 title: Wiki.js installation
 description: 
 published: true
-date: 2020-08-06T05:25:29.051Z
+date: 2020-08-06T05:27:34.577Z
 tags: 
 editor: markdown
 ---
@@ -96,7 +96,7 @@ $ service nginx restart
 ```
 
 ### Set up SSL certificate
-Run `sudo certbot` and select the subdomain to generate a certificate.
+Run `sudo certbot` and select the subdomain to generate a certificate. Choose option 2 to always redirect http to https.
 <br />
 
 ## Start the Wiki.js server
@@ -105,6 +105,8 @@ The server can be started simply with `node server`. However, for long-term depl
 ```shell-session
 $ pm2 start server
 ```
+
+Wiki.js should now be accessible at https://wiki.phiz.io!
 
 
 
