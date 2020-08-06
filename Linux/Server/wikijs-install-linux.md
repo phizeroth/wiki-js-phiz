@@ -1,9 +1,9 @@
 ---
-title: Wiki.js installation
-description: 
+title: Wiki.js Installation
+description: Wiki.js installation on a Linux/Nginx server
 published: true
-date: 2020-08-06T05:27:34.577Z
-tags: 
+date: 2020-08-06T06:18:15.538Z
+tags: linux, server, wiki.js
 editor: markdown
 ---
 
@@ -94,6 +94,9 @@ Reload Nginx:
 ```shell-session
 $ service nginx restart
 ```
+
+Finally, add an **A record** to your DNS panel for the subdomain, pointing to the server host IP address.
+<br />
 
 ### Set up SSL certificate
 Run `sudo certbot` and select the subdomain to generate a certificate. Choose option 2 to always redirect http to https.
