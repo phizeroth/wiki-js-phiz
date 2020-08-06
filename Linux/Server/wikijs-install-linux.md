@@ -2,7 +2,7 @@
 title: Wiki.js installation
 description: 
 published: true
-date: 2020-08-06T05:24:06.341Z
+date: 2020-08-06T05:25:29.051Z
 tags: 
 editor: markdown
 ---
@@ -66,7 +66,7 @@ Create the database:
 $ createdb -O wikijs wiki
 ```
 
-## Nginx reverse proxy on a subdomain
+## Nginx reverse proxy to the subdomain
 
 Create a `wiki.phiz.io` file entry in `/etc/nginx/sites-available/`:
 ```nginx
