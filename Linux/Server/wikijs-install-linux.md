@@ -2,7 +2,7 @@
 title: Wiki.js Installation
 description: Wiki.js installation on a Linux/Nginx server
 published: true
-date: 2020-08-06T06:18:15.538Z
+date: 2020-08-06T06:42:32.711Z
 tags: linux, server, wiki.js
 editor: markdown
 ---
@@ -110,6 +110,9 @@ $ pm2 start server
 ```
 
 Wiki.js should now be accessible at https://wiki.phiz.io!
+<br />
 
-
-
+## References
+- [Linux | Wiki.js Docs *Official guide for installation, which does not include instructions for PostgreSQL setup*](https://docs.requarks.io/install/linux)
+- [Simple PostgreSQL setup for Wiki.js? *Excxellent answer by /u/chronos280 describing basic Wiki.js setup with PostgreSQL*](https://www.reddit.com/r/selfhosted/comments/hhmec4/simple_postgresql_setup_for_wikijs/fwdqi8t/)
+{.links-list}
